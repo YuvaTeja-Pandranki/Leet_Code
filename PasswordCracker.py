@@ -7,7 +7,7 @@ pw = ""
 while(pw != u_pwd):
   pw=""
   for letter in range(len(u_pwd)):
-    guess_pwd = pwd[randit(0,17)]
+    guess_pwd = pwd[randint(0,17)]
     pw = str(guess_pwd)+ str(pw)
     print(pw)
     print("cracking password.....Please wait")
